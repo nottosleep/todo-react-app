@@ -1,0 +1,37 @@
+.todo-task {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: #666;
+    padding: 15px;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #D8D8DB;
+}
+
+.todo-task-label {
+    word-wrap: break-word;
+    max-width: 240px;
+    width: 100%;
+}
+
+.todo-delete-btn img,
+.todo-important-btn img {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.done {
+    text-decoration: line-through;
+    font-weight: 700;
+    opacity: .3;
+}
+
+.important {
+    color: #0080D4;
+    font-weight: 700;
+    border-left: 5px solid #0080D4;
+}

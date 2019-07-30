@@ -1,0 +1,11 @@
+.todo-count {
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+}
+
+.todo-count-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+.todo-add-panel-block {
+    display: flex;
+    justify-content: space-around;
+    width: inherit;
+}
+
+.todo-add-panel {
+    height: 25px;
+    width: 250px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #D8D8DB;
+    font-size: 15px;
+    color: #666666;
+}
+
+.todo-add-btn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #39B0CC;
+}
